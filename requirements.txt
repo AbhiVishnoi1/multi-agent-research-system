@@ -1,0 +1,81 @@
+# ============================================================
+# MULTI-AGENT GENERATIVE AI RESEARCH SYSTEM
+# OpenAI + LangChain + LangGraph + Tavily + BeautifulSoup
+# ============================================================
+
+# -------------------------
+# LangChain Core / LCEL
+# -------------------------
+langchain
+langchain-core
+langchain-openai
+langchain-community
+langchain-text-splitters
+
+# -------------------------
+# Multi-Agent / Agent Graph
+# -------------------------
+langgraph
+langgraph-checkpoint
+
+# -------------------------
+# Web Research
+# -------------------------
+langchain-tavily
+tavily-python
+beautifulsoup4
+lxml
+
+# -------------------------
+# OpenAI
+# -------------------------
+openai
+
+# -------------------------
+# Environment Variables
+# -------------------------
+python-dotenv
+
+# -------------------------
+# Data Validation / Schemas
+# -------------------------
+pydantic
+pydantic-settings
+
+# -------------------------
+# HTTP / Async Networking
+# -------------------------
+requests
+httpx
+aiohttp
+
+# -------------------------
+# API / Backend
+# Useful for exposing the multi-agent system as an API
+# -------------------------
+fastapi
+uvicorn[standard]
+python-multipart
+
+# -------------------------
+# Utilities
+# -------------------------
+tenacity
+typing-extensions
+
+# -------------------------
+# Optional: Structured Data
+# Useful when agents return/save research results
+# -------------------------
+pandas
+
+# -------------------------
+# Optional: Markdown / HTML Processing
+# -------------------------
+markdown
+
+
+langchain-huggingface
+huggingface-hub
+transformers
+tokenizers
