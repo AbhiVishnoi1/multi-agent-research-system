@@ -68,6 +68,7 @@ typing-extensions
 # Useful when agents return/save research results
 # -------------------------
 pandas
+from langchain_groq import ChatGroq
 
 # -------------------------
 # Optional: Markdown / HTML Processing
