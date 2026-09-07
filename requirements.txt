@@ -68,7 +68,17 @@ typing-extensions
 # Useful when agents return/save research results
 # -------------------------
 pandas
-from langchain_groq import ChatGroq
+streamlit
+langchain
+langchain-core
+langchain-groq
+langchain-mistralai
+langchain-huggingface
+tavily-python
+python-dotenv
+beautifulsoup4
+requests
+rich
 
 # -------------------------
 # Optional: Markdown / HTML Processing
